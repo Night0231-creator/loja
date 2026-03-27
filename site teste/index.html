@@ -1,0 +1,1621 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THEMAF1A STORE | UP de Contas GTA V PC Enhanced</title>
+    <meta
+      name="description"
+      content="Serviços premium de UP de contas, dinheiro e níveis para GTA V Online PC Enhanced. Entrega rápida, suporte via Discord e segurança garantida."
+    />
+    <meta name="theme-color" content="#0b0f14" />
+
+    <!-- Tailwind (modo CDN, para ambiente sem Node build) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              bg0: "#070a10",
+              bg1: "#0b0f14",
+              panel: "#0f1623",
+              neon: "#7c3aed",
+              neon2: "#22c55e",
+              ink: "#e6eaf2",
+            },
+            boxShadow: {
+              neon: "0 0 0 1px rgba(124, 58, 237, .25), 0 0 18px rgba(124, 58, 237, .35), 0 0 60px rgba(124, 58, 237, .15)",
+            },
+            borderRadius: {
+              xl: "1rem",
+            },
+            keyframes: {
+              glowPulse: {
+                "0%, 100%": { opacity: 0.55, transform: "scale(1)" },
+                "50%": { opacity: 1, transform: "scale(1.01)" },
+              },
+              floaty: {
+                "0%, 100%": { transform: "translateY(0px)" },
+                "50%": { transform: "translateY(-6px)" },
+              },
+            },
+            animation: {
+              glowPulse: "glowPulse 2.6s ease-in-out infinite",
+              floaty: "floaty 5.2s ease-in-out infinite",
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="bg-bg0 text-ink antialiased">
+    <div class="pointer-events-none fixed inset-0 -z-10">
+      <div class="absolute -top-32 left-1/2 h-[520px] w-[920px] -translate-x-1/2 rounded-full bg-gradient-to-r from-neon/35 via-neon2/10 to-neon/20 blur-3xl" id="bgBlob"></div>
+      <div class="absolute top-0 left-0 h-96 w-96 rounded-full bg-neon2/10 blur-3xl"></div>
+      <div class="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-neon/10 blur-3xl"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 border-b border-white/5 bg-bg1/60 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="#inicio" class="group inline-flex items-center gap-3">
+          <div class="relative h-10 w-10 rounded-2xl neon-border overflow-hidden bg-gradient-to-br from-neon/20 to-neon2/10 shadow-neon">
+            <div class="absolute inset-0 neon-glow"></div>
+            <div class="absolute inset-0 grid place-items-center">
+              <span class="text-sm font-extrabold tracking-wide">TF</span>
+            </div>
+          </div>
+          <div class="leading-tight">
+            <div class="text-base font-black tracking-tight">
+              THEMAF1A <span class="text-neon2">STORE</span>
+            </div>
+            <div class="text-xs text-white/60">UP Premium GTA</div>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a class="navlink" href="#inicio">Início</a>
+          <a class="navlink" href="#pacotes">Pacotes</a>
+          <a class="navlink" href="#monte">Monte seu UP</a>
+          <a class="navlink" href="#avaliacoes">Avaliações</a>
+          <a class="navlink" href="#suporte">Suporte</a>
+        </nav>
+
+        <div class="hidden md:flex items-center gap-3">
+          <a href="#monte" class="btn btn-primary">COMPRAR AGORA</a>
+        </div>
+
+        <button id="mobileMenuBtn" class="md:hidden btn btn-ghost">
+          <span class="text-base">☰ Menu</span>
+        </button>
+      </div>
+
+      <div id="mobileMenu" class="hidden md:hidden border-t border-white/5 bg-bg1/90">
+        <div class="mx-auto max-w-6xl px-4 py-4 flex flex-col gap-3 text-sm">
+          <a class="navlink" href="#inicio" data-close-menu>Início</a>
+          <a class="navlink" href="#pacotes" data-close-menu>Pacotes</a>
+          <a class="navlink" href="#monte" data-close-menu>Monte seu UP</a>
+          <a class="navlink" href="#avaliacoes" data-close-menu>Avaliações</a>
+          <a class="navlink" href="#suporte" data-close-menu>Suporte (Discord)</a>
+          <a href="#monte" class="btn btn-primary" data-close-menu>COMPRAR AGORA</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section id="inicio" class="mx-auto max-w-6xl px-4 pt-10 sm:pt-14">
+        <div class="grid items-center gap-8 md:grid-cols-2">
+          <div>
+            <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs">
+              <span class="h-2.5 w-2.5 rounded-full bg-neon2 shadow-[0_0_22px_rgba(34,197,94,.6)]"></span>
+              Atendimento rápido via Discord + checkout premium
+            </div>
+
+            <h1 class="mt-5 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
+              UP DE CONTAS RÁPIDO,
+              <span class="text-neon2">SEGURO</span> E DISCRETO
+            </h1>
+
+            <p class="mt-4 text-base text-white/70 sm:text-lg">
+              Experiência de compra clara e profissional: você escolhe o upgrade, paga com segurança e recebe confirmação no suporte.
+              Alta conversão com foco em PC Enhanced.
+            </p>
+
+            <div class="mt-6 grid gap-3 sm:grid-cols-3">
+              <div class="card card-tight">
+                <div class="flex items-center gap-3">
+                  <span class="icon-badge icon-neon2">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z"></path>
+                    </svg>
+                  </span>
+                  <div class="text-sm font-bold">Entrega rápida</div>
+                </div>
+              </div>
+              <div class="card card-tight">
+                <div class="flex items-center gap-3">
+                  <span class="icon-badge icon-neon">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 17l-5-5 1.4-1.4L12 14.2l3.6-3.6L17 12l-5 5z"></path>
+                      <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"></path>
+                    </svg>
+                  </span>
+                  <div class="text-sm font-bold">Processo seguro</div>
+                </div>
+              </div>
+              <div class="card card-tight">
+                <div class="flex items-center gap-3">
+                  <span class="icon-badge icon-neon2">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 1v22"></path>
+                      <path d="M17 5H9.5a3 3 0 0 0 0 6H14a3 3 0 0 1 0 6H6"></path>
+                    </svg>
+                  </span>
+                  <div class="text-sm font-bold">Melhor custo</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <a href="#monte" class="btn btn-primary btn-lg justify-center">
+                COMPRAR AGORA
+              </a>
+              <a href="#suporte" class="btn btn-secondary btn-lg justify-center">
+                FALAR NO DISCORD
+              </a>
+            </div>
+
+            <div class="mt-6 text-xs text-white/55">
+              Pagamento via Mercado Pago (estrutura pronta). Suporte e acompanhamento por Discord.
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="card p-6 sm:p-7 neon-card reveal">
+              <div class="absolute -top-4 -right-4 h-24 w-24 rounded-full bg-neon/20 blur-xl neon-glow"></div>
+              <div class="flex items-start gap-4">
+                <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/5 neon-border">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-neon2">
+                    <path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="text-lg font-black">Resumo do pedido</div>
+                  <div class="mt-1 text-sm text-white/70">Escolha um pacote ou monte do seu jeito.</div>
+                </div>
+              </div>
+
+              <div class="mt-5 grid gap-3">
+                <div class="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+                  <div class="text-sm">
+                    <div class="font-bold">Prazo</div>
+                    <div class="text-white/60 text-xs">confirmado no checkout</div>
+                  </div>
+                  <div class="text-right">
+                    <div class="font-black text-neon2" id="checkoutEtaPreview">24h</div>
+                    <div class="text-white/60 text-xs">médio</div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+                  <div class="text-sm">
+                    <div class="font-bold">Preço</div>
+                    <div class="text-white/60 text-xs">atualiza ao selecionar</div>
+                  </div>
+                  <div class="text-right">
+                    <div class="font-black" id="checkoutPricePreview">R$ 29,90</div>
+                    <div class="text-white/60 text-xs">estimado</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-5 grid grid-cols-2 gap-3">
+                <div class="rounded-xl border border-white/10 bg-white/5 p-3">
+                  <div class="text-xs text-white/60">Entrega</div>
+                  <div class="mt-1 text-sm font-bold text-neon2">Prioritária</div>
+                </div>
+                <div class="rounded-xl border border-white/10 bg-white/5 p-3">
+                  <div class="text-xs text-white/60">Suporte</div>
+                  <div class="mt-1 text-sm font-bold">Discord</div>
+                </div>
+              </div>
+
+              <div class="mt-5">
+                <a href="#pacotes" class="btn btn-ghost w-full justify-center hover:scale-[1.01]">
+                  Ver pacotes
+                </a>
+              </div>
+            </div>
+
+            <div class="mt-4 flex gap-3 sm:gap-4">
+              <div class="floaty card flex-1 p-4 neon-border" style="animation-delay:0ms">
+                <div class="text-xs text-white/60">Clientes</div>
+                <div class="mt-1 text-2xl font-black text-neon2" id="clientsCounter" data-counter data-value="5234">0</div>
+              </div>
+              <div class="floaty card flex-1 p-4 neon-border" style="animation-delay:120ms">
+                <div class="text-xs text-white/60">Avaliação</div>
+                <div class="mt-1 flex items-center justify-between">
+                  <div class="text-2xl font-black">5.0</div>
+                  <div class="flex items-center gap-1">
+                    <span class="star" aria-hidden="true">⭐</span>
+                    <span class="star" aria-hidden="true">⭐</span>
+                    <span class="star" aria-hidden="true">⭐</span>
+                    <span class="star" aria-hidden="true">⭐</span>
+                    <span class="star" aria-hidden="true">⭐</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="absolute -bottom-10 -left-8 h-28 w-28 rounded-full bg-neon2/10 blur-xl"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROVA SOCIAL -->
+      <section id="avaliacoes" class="mx-auto max-w-6xl px-4 pt-12">
+        <div class="section-title">
+          <div class="inline-flex items-center gap-3">
+            <span class="chip">Prova Social</span>
+            <h2 class="text-2xl font-black">Confiança que aparece na prática</h2>
+          </div>
+          <p class="mt-2 text-white/70 max-w-2xl">
+            Pessoas reais, feedback real. Um processo bem organizado reduz dúvidas e acelera sua entrega.
+          </p>
+        </div>
+
+        <div class="mt-6 grid gap-5 lg:grid-cols-3">
+          <div class="card p-6 neon-card lg:col-span-1 reveal">
+            <div class="flex items-center justify-between">
+              <div>
+                <div class="text-sm text-white/60">Clientes atendidos</div>
+                <div class="text-4xl font-black text-neon2">
+                  <span id="clientsBigCounter">500</span>+
+                </div>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-3">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-neon2">
+                  <path d="M20 21V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v13"></path>
+                  <path d="M9 21v-8h6v8"></path>
+                  <path d="M9 6V4a3 3 0 0 1 6 0v2"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="mt-4 text-sm text-white/70">
+              Transparência no atendimento e foco em uma experiência premium.
+            </div>
+            <div class="mt-4 flex items-center gap-1 text-white/80" aria-label="Avaliação cinco estrelas">
+              <span class="text-lg">⭐</span><span class="text-lg">⭐</span><span class="text-lg">⭐</span><span class="text-lg">⭐</span><span class="text-lg">⭐</span>
+              <span class="ml-2 text-xs text-white/60">5.0 média</span>
+            </div>
+          </div>
+
+          <div class="card p-6 reveal">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-sm font-bold">Entrega muito rápida</div>
+                <div class="mt-2 text-sm text-white/70">
+                  "Chegou antes do prazo que eu esperava. Atendeu super rápido no Discord."
+                </div>
+              </div>
+              <span class="badge badge-neon2">⭐ 5/5</span>
+            </div>
+            <div class="mt-4 flex items-center gap-2 text-xs text-white/60">
+              <span class="dot"></span> atendimento 1:1
+            </div>
+          </div>
+
+          <div class="card p-6 reveal">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-sm font-bold">Confiável demais</div>
+                <div class="mt-2 text-sm text-white/70">
+                  "Processo claro, sem enrolação. Já comprei mais de uma vez."
+                </div>
+              </div>
+              <span class="badge badge-neon">⭐ 5/5</span>
+            </div>
+            <div class="mt-4 flex items-center gap-2 text-xs text-white/60">
+              <span class="dot"></span> suporte rápido
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 grid gap-5 lg:grid-cols-3">
+          <div class="card p-6 reveal">
+            <div class="text-sm font-bold">Experiência premium</div>
+            <div class="mt-2 text-sm text-white/70">
+              "Design top, compra fácil e acompanhamento. Deu muita confiança."
+            </div>
+            <div class="mt-4 flex items-center gap-2 text-xs text-white/60">
+              <span class="dot"></span> checkout sem complicação
+            </div>
+          </div>
+          <div class="card p-6 reveal">
+            <div class="text-sm font-bold">Excelente custo-benefício</div>
+            <div class="mt-2 text-sm text-white/70">
+              "Peguei um pacote intermediário e valeu demais pelo preço."
+            </div>
+            <div class="mt-4 flex items-center gap-2 text-xs text-white/60">
+              <span class="dot"></span> pacote certo para você
+            </div>
+          </div>
+          <div class="card p-6 reveal">
+            <div class="text-sm font-bold">Atendimento discreto</div>
+            <div class="mt-2 text-sm text-white/70">
+              "Sem ruído, tudo organizado. O suporte respondeu na hora."
+            </div>
+            <div class="mt-4 flex items-center gap-2 text-xs text-white/60">
+              <span class="dot"></span> comunicação objetiva
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section class="mx-auto max-w-6xl px-4 py-12">
+        <div class="grid gap-6 sm:grid-cols-3">
+          <div class="card p-8 text-center reveal">
+            <div id="statDeliveries" class="text-4xl font-black text-neon2 mb-2" data-counter data-value="500">0</div>
+            <div class="text-sm font-bold uppercase tracking-wider">Entregas realizadas</div>
+            <div class="text-xs text-white/60 mt-2">Clientes satisfeitos</div>
+          </div>
+          <div class="card p-8 text-center reveal">
+            <div id="statMillions" class="text-4xl font-black text-neon mb-2" data-counter data-value="150">0</div>
+            <div class="text-sm font-bold uppercase tracking-wider">Milhões transferidos</div>
+            <div class="text-xs text-white/60 mt-2">Em contas GTA</div>
+          </div>
+          <div class="card p-8 text-center reveal">
+            <div id="statRating" class="text-4xl font-black text-pink-400 mb-2">4.98</div>
+            <div class="text-sm font-bold uppercase tracking-wider">Classificação média</div>
+            <div class="text-xs text-white/60 mt-2">⭐⭐⭐⭐⭐</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PACOTES -->
+      <section id="pacotes" class="mx-auto max-w-6xl px-4 pt-12">
+        <div class="section-title">
+          <div class="inline-flex items-center gap-3">
+            <span class="chip">Pacotes UP</span>
+            <h2 class="text-2xl font-black">Escolha o seu plano</h2>
+          </div>
+          <p class="mt-2 text-white/70 max-w-2xl">
+            <span class="inline-block px-2 py-1 rounded bg-pink-500/20 text-pink-300 text-xs font-bold mr-2">PC ENHANCED ONLY</span>
+            Produção limitada: <b>40M por dia</b>. Pacotes maiores significam mais dias de entrega. Clique em
+            <b>COMPRAR AGORA</b> para finalizar.
+          </p>
+        </div>
+
+        <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+          <article class="card p-6 package-card reveal" data-package="inic" data-qty="40">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-xs font-bold text-pink-400 uppercase tracking-wider">💻 PC Enhanced</div>
+                <div class="text-sm font-black text-neon2">PACOTE INICIANTE</div>
+                <div class="mt-3 text-4xl font-black text-neon2">40M GTA$</div>
+                <div class="mt-2 text-3xl font-black">R$ 7,90</div>
+                <div class="mt-2 text-sm text-white/60">Entrega: até 24h</div>
+              </div>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm text-white/70">
+              <li class="flex gap-2"><span class="check"></span> <span><strong>40 Milhões</strong> em dinheiro GTA$</span></li>
+              <li class="flex gap-2"><span class="check"></span> 🔒 Transação 100% segura</li>
+              <li class="flex gap-2"><span class="check"></span> ⚡ Entrega rápida</li>
+              <li class="flex gap-2"><span class="check"></span> 💬 Suporte via Discord</li>
+            </ul>
+            <button class="btn btn-primary mt-5 w-full package-cta" type="button">
+              COMPRAR AGORA
+            </button>
+          </article>
+
+          <article class="card p-6 package-card neon-outline reveal" data-package="inter" data-qty="100">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-xs font-bold text-pink-400 uppercase tracking-wider">💻 PC Enhanced</div>
+                <div class="text-sm font-black text-neon">PACOTE INTERMEDIÁRIO</div>
+                <div class="mt-3 text-4xl font-black text-neon">100M GTA$</div>
+                <div class="mt-2 text-3xl font-black">R$ 17,90</div>
+                <div class="mt-2 text-sm text-white/60">Entrega: 2 a 3 dias</div>
+              </div>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm text-white/70">
+              <li class="flex gap-2"><span class="check"></span> <span><strong>100 Milhões</strong> em dinheiro GTA$</span></li>
+              <li class="flex gap-2"><span class="check"></span> ✨ Acesso a descontos especiais</li>
+              <li class="flex gap-2"><span class="check"></span> 🔒 100% seguro</li>
+              <li class="flex gap-2"><span class="check"></span> 💬 Suporte prioritário Discord</li>
+            </ul>
+            <button class="btn btn-primary mt-5 w-full package-cta" type="button">
+              COMPRAR AGORA
+            </button>
+          </article>
+
+          <article class="card p-6 package-card most-sold-package reveal" data-package="mais" data-qty="200">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-xs font-bold text-pink-400 uppercase tracking-wider">💻 PC Enhanced</div>
+                <div class="text-sm font-black text-neon2">🔥 MAIS VENDIDO</div>
+                <div class="mt-3 text-4xl font-black text-neon2">200M GTA$</div>
+                <div class="mt-2 text-3xl font-black">R$ 29,90</div>
+                <div class="mt-2 text-sm text-white/60">Entrega: 4 a 5 dias</div>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-2">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-neon2">
+                  <path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z"></path>
+                </svg>
+              </div>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm text-white/70">
+              <li class="flex gap-2"><span class="check"></span> <span><strong>200 Milhões</strong> em dinheiro GTA$</span></li>
+              <li class="flex gap-2"><span class="check"></span> 📈 Máximo desempenho no jogo</li>
+              <li class="flex gap-2"><span class="check"></span> ⭐ Prioridade na entrega</li>
+              <li class="flex gap-2"><span class="check"></span> 🎁 Bônus e vantagens extras</li>
+            </ul>
+            <button class="btn btn-primary mt-5 w-full package-cta" type="button">
+              COMPRAR AGORA
+            </button>
+          </article>
+
+          <article class="card p-6 package-card neon-outline2 reveal" data-package="adv" data-qty="400">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-xs font-bold text-pink-400 uppercase tracking-wider">💻 PC Enhanced</div>
+                <div class="text-sm font-black text-neon2">PACOTE AVANÇADO</div>
+                <div class="mt-3 text-4xl font-black text-neon2">400M GTA$</div>
+                <div class="mt-2 text-3xl font-black">R$ 54,90</div>
+                <div class="mt-2 text-sm text-white/60">Entrega: 8 a 10 dias</div>
+              </div>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm text-white/70">
+              <li class="flex gap-2"><span class="check"></span> <span><strong>400 Milhões</strong> em dinheiro GTA$</span></li>
+              <li class="flex gap-2"><span class="check"></span> 👑 Status elevado no servidor</li>
+              <li class="flex gap-2"><span class="check"></span> 🏆 Acesso a conteúdo exclusivo</li>
+              <li class="flex gap-2"><span class="check"></span> 💎 Suporte VIP via Discord</li>
+            </ul>
+            <button class="btn btn-primary mt-5 w-full package-cta" type="button">
+              COMPRAR AGORA
+            </button>
+          </article>
+
+          <article class="card p-6 package-card premium-card reveal" data-package="prem" data-qty="600">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-xs font-bold text-pink-400 uppercase tracking-wider">💻 PC Enhanced</div>
+                <div class="text-sm font-black text-neon2">PACOTE PREMIUM</div>
+                <div class="mt-3 text-4xl font-black text-neon2">600M GTA$</div>
+                <div class="mt-2 text-3xl font-black">R$ 79,90</div>
+                <div class="mt-2 text-sm text-white/60">Entrega: 12 a 15 dias</div>
+              </div>
+            </div>
+            <ul class="mt-4 space-y-2 text-sm text-white/70">
+              <li class="flex gap-2"><span class="check"></span> <span><strong>600 Milhões</strong> em dinheiro GTA$</span></li>
+              <li class="flex gap-2"><span class="check"></span> 💰 Domínio total do jogo</li>
+              <li class="flex gap-2"><span class="check"></span> 🌟 Acesso a benefícios permanentes</li>
+              <li class="flex gap-2"><span class="check"></span> ⚜️ Suporte VIP 24/7 dedicado</li>
+            </ul>
+            <button class="btn btn-primary mt-5 w-full package-cta" type="button">
+              COMPRAR AGORA
+            </button>
+          </article>
+        </div>
+      </section>
+
+            <!-- MONTE SEU UP -->
+      <section id="monte" class="mx-auto max-w-6xl px-4 pt-12">
+        <style>
+          .slider-pink {
+            -webkit-appearance: none;
+            appearance: none;
+            height: 6px;
+            border-radius: 3px;
+            background: linear-gradient(to right, #ff007f 0%, #ff007f var(--value, 0%), #273142 var(--value, 0%));
+            outline: none;
+            cursor: pointer;
+            transition: box-shadow 0.2s ease;
+          }
+          .slider-pink:hover {
+            box-shadow: 0 0 15px rgba(255, 0, 127, 0.6);
+          }
+          .slider-pink::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 999px;
+            background: #ff007f;
+            box-shadow: 0 0 0 3px rgba(255, 0, 127, 0.35);
+            cursor: pointer;
+          }
+          .slider-pink::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 999px;
+            background: #ff007f;
+            box-shadow: 0 0 0 3px rgba(255,0,127,0.35);
+            cursor: pointer;
+            border: none;
+          }
+          .toggle-switch {
+            position: relative;
+            width: 46px;
+            height: 24px;
+            border-radius: 999px;
+            background: #2f3a49;
+            transition: background 0.25s ease;
+          }
+          .toggle-switch::after {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius: 999px;
+            transition: transform 0.25s ease;
+          }
+          .extra-checkbox:checked + .toggle-switch {
+            background: #ff007f;
+          }
+          .extra-checkbox:checked + .toggle-switch::after {
+            transform: translateX(22px);
+          }
+          .platform-tab {
+            color: #cbd5e1;
+            border:1px solid rgba(255,255,255,.16);
+            background: rgba(15,23,42,.6);
+          }
+          .platform-tab.active {
+            color:#fff;
+            background: linear-gradient(90deg,#ff007f,#d4089a);
+            border-color:#ff4fad;
+          }
+          .extra-toggle.active {
+            border-color:#ff007f;
+            background: rgba(255,0,127,.16);
+            box-shadow: 0 0 10px rgba(255,0,127,.22);
+          }
+          .badge-pink {
+            background:#ff007f;
+            color:#fff;
+            font-weight:700;
+            font-size:.75rem;
+            padding:.15rem .45rem;
+            border-radius:999px;
+          }
+        </style>
+
+        <div class="section-title">
+          <div class="inline-flex items-center gap-3">
+            <span class="chip">Monte seu UP</span>
+            <h2 class="text-2xl font-black">Monte seu plano</h2>
+          </div>
+          <p class="mt-2 text-white/70 max-w-2xl">Selecione plataforma e valores, ent�o finalize em checkout seguro.</p>
+        </div>
+
+        <div class="mt-6 flex justify-center">
+          <div class="inline-flex items-center gap-3 px-6 py-3 rounded-xl border border-pink-500/30 bg-pink-500/10">
+            <span class="text-2xl">💻</span>
+            <div>
+              <div class="text-xs font-bold text-pink-400 uppercase tracking-wider">Exclusivo</div>
+              <div class="text-lg font-black">PC ENHANCED</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 grid gap-6 lg:grid-cols-3">
+          <div class="lg:col-span-2 space-y-6">
+            <div class="card p-6">
+              <h3 class="text-lg font-black mb-4">Configurador</h3>
+              <div class="mb-5">
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-sm font-bold">Dinheiro (M)</span>
+                  <span class="badge-pink" id="dinheiroValue">0M</span>
+                </div>
+                <input id="dinheiroSlider" type="range" min="0" max="1000" step="30" value="0" class="w-full slider-pink" />
+                <p class="text-xs text-white/60 mt-1">+ R$ 15,00 a cada 30M</p>
+              </div>
+
+            </div>
+
+            <div class="card p-6">
+              <h3 class="text-lg font-black mb-4">Extras</h3>
+              <div class="grid gap-3 sm:grid-cols-2">
+                <label class="extra-toggle flex items-center justify-between p-3 rounded-lg border border-white/10 bg-white/5 cursor-pointer" data-extra="nivelPersonalizado" data-price="8">
+                  <div class="flex items-center gap-2"><span></span><div><div class="font-bold">N�vel Personalizado</div><div class="text-xs text-white/60">+ R$ 8,00</div></div></div>
+                  <input type="checkbox" class="extra-checkbox hidden" /><span class="toggle-switch"></span>
+                </label>
+                <label class="extra-toggle flex items-center justify-between p-3 rounded-lg border border-white/10 bg-white/5 cursor-pointer" data-extra="unlockAll" data-price="20">
+                  <div class="flex items-center gap-2"><span></span><div><div class="font-bold">Unlock All Completo</div><div class="text-xs text-white/60">+ R$ 20,00</div></div></div>
+                  <input type="checkbox" class="extra-checkbox hidden" /><span class="toggle-switch"></span>
+                </label>
+                <label class="extra-toggle flex items-center justify-between p-3 rounded-lg border border-white/10 bg-white/5 cursor-pointer" data-extra="corridinhaMod" data-price="5">
+                  <div class="flex items-center gap-2"><span></span><div><div class="font-bold">Corridinha Mod</div><div class="text-xs text-white/60">+ R$ 5,00</div></div></div>
+                  <input type="checkbox" class="extra-checkbox hidden" /><span class="toggle-switch"></span>
+                </label>
+                <label class="extra-toggle flex items-center justify-between p-3 rounded-lg border border-white/10 bg-white/5 cursor-pointer" data-extra="limparDenuncias" data-price="5">
+                  <div class="flex items-center gap-2"><span></span><div><div class="font-bold">Limpar Den�ncias</div><div class="text-xs text-white/60">+ R$ 5,00</div></div></div>
+                  <input type="checkbox" class="extra-checkbox hidden" /><span class="toggle-switch"></span>
+                </label>
+                <label class="extra-toggle flex items-center justify-between p-3 rounded-lg border border-white/10 bg-white/5 cursor-pointer" data-extra="tatuagensHalloween" data-price="1">
+                  <div class="flex items-center gap-2"><span></span><div><div class="font-bold">Tatuagens Halloween</div><div class="text-xs text-white/60">+ R$ 1,00</div></div></div>
+                  <input type="checkbox" class="extra-checkbox hidden" /><span class="toggle-switch"></span>
+                </label>
+                <label class="extra-toggle flex items-center justify-between p-3 rounded-lg border border-white/10 bg-white/5 cursor-pointer" data-extra="gtaPlus" data-price="30">
+                  <div class="flex items-center gap-2"><span></span><div><div class="font-bold">GTA+ & Lojas Full</div><div class="text-xs text-white/60">+ R$ 30,00</div></div></div>
+                  <input type="checkbox" class="extra-checkbox hidden" /><span class="toggle-switch"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-1">
+            <div class="sticky top-8">
+              <div class="card p-6">
+                <h3 id="resumoTitle" class="text-lg font-black mb-4 flex items-center gap-2"><span></span> Resumo (PC)</h3>
+                <div class="text-center mb-4"><div id="totalPrice" class="text-3xl font-black text-pink-400">R$ 0,00</div><div class="text-xs text-white/60">Total Final</div></div>
+                <div id="minWarning" class="hidden text-center mb-4 p-2 rounded-lg bg-red-500/10 border border-red-500/30"><span class="text-sm font-bold text-red-400">M�nimo: R$ 10,00</span></div>
+                <div class="space-y-2 text-sm mb-4">
+                  <div class="flex justify-between"><span class="text-white/70">Dinheiro</span><span id="summaryDinheiro">0M (+R$ 0,00)</span></div>
+                  <div class="flex justify-between"><span class="text-white/70">Extras</span><span id="summaryExtras">0 (+R$ 0,00)</span></div>
+                </div>
+                <button id="checkoutBtn" class="w-full py-3 rounded-lg font-black bg-pink-500 text-white hover:bg-pink-600 disabled:opacity-50 disabled:cursor-not-allowed" disabled>Valor M�nimo N�o Atingido</button>
+                <p class="mt-4 text-xs text-white/60 text-center">O prazo de entrega pode variar de 24h a 72h.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          let currentPlatform = 'PC';
+          let dinheiro = 0;
+          let extras = {};
+
+          const platformTabs = document.querySelectorAll('.platform-tab');
+          const dinheiroSlider = document.getElementById('dinheiroSlider');
+          const extraToggles = document.querySelectorAll('.extra-toggle');
+          const totalPriceEl = document.getElementById('totalPrice');
+          const checkoutBtn = document.getElementById('checkoutBtn');
+          const minWarning = document.getElementById('minWarning');
+          const resumoTitle = document.getElementById('resumoTitle');
+
+          const money = (v) => 'R$ ' + Number(v).toFixed(2).replace('.', ',');
+          const calcDinheiro = (v) => Math.floor(v / 30) * 15;
+          const calcExtras = () => Object.values(extras).reduce((a,b)=>a+b,0);
+          const calcTotal = () => calcDinheiro(dinheiro) + calcExtras();
+
+          const updateSlider = (slider, value) => slider.style.setProperty('--value', (value / Number(slider.max)) * 100 + '%');
+
+          const updateUI = () => {
+            document.getElementById('dinheiroValue').textContent = `${dinheiro}M`;
+            updateSlider(dinheiroSlider, dinheiro);
+
+            const total = calcTotal();
+            totalPriceEl.textContent = money(total);
+            document.getElementById('summaryDinheiro').textContent = `${dinheiro}M (+${money(calcDinheiro(dinheiro))})`;
+            document.getElementById('summaryExtras').textContent = `${Object.keys(extras).length} (+${money(calcExtras())})`;
+
+            if(total < 10){ minWarning.classList.remove('hidden'); checkoutBtn.disabled=true; checkoutBtn.textContent='Valor M�nimo N�o Atingido'; }
+            else { minWarning.classList.add('hidden'); checkoutBtn.disabled=false; checkoutBtn.textContent='Finalizar Pedido'; }
+
+            resumoTitle.innerHTML = `<span></span> Resumo (${currentPlatform})`;
+          };
+
+          platformTabs.forEach(tab => tab.addEventListener('click', () => {
+            platformTabs.forEach(t=>t.classList.remove('active'));
+            tab.classList.add('active');
+            currentPlatform=tab.dataset.platform;
+            updateUI();
+          }));
+
+          dinheiroSlider.addEventListener('input',(e)=>{dinheiro=Number(e.target.value); updateUI();});
+
+          extraToggles.forEach(toggle=>{
+            const checkbox=toggle.querySelector('.extra-checkbox');
+            const key=toggle.dataset.extra;
+            const price=Number(toggle.dataset.price);
+            toggle.addEventListener('click',()=>{
+              checkbox.checked=!checkbox.checked;
+              if(checkbox.checked){ extras[key]=price; toggle.classList.add('active'); }
+              else { delete extras[key]; toggle.classList.remove('active'); }
+              updateUI();
+            });
+          });
+
+          checkoutBtn.addEventListener('click', async ()=>{
+            const total=calcTotal();
+            if(total<10) return;
+            const body={ platform:currentPlatform, dinheiro, extras, total };
+            try{
+              const resp=await fetch('/api/checkout', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+              const data=await resp.json();
+              if(!resp.ok||!data.checkoutUrl){ throw new Error(data.error||'Erro no checkout'); }
+              window.location.href=data.checkoutUrl;
+            }catch(err){ console.error(err); alert('Falha ao criar checkout: '+err.message); }
+          });
+
+          updateUI();
+        </script>
+      </section><!-- COMO FUNCIONA -->
+      <section class="mx-auto max-w-6xl px-4 pt-12">
+        <div class="section-title">
+          <div class="inline-flex items-center gap-3">
+            <span class="chip">Como funciona</span>
+            <h2 class="text-2xl font-black">Quatro passos simples</h2>
+          </div>
+          <p class="mt-2 text-white/70 max-w-2xl">Fluxo desenhado para diminuir fricção e aumentar conversão.</p>
+        </div>
+
+        <div class="mt-6 grid gap-5 md:grid-cols-4">
+          <div class="card p-6 reveal">
+            <div class="step">1</div>
+            <div class="mt-3 text-base font-black">Escolha o pacote</div>
+            <div class="mt-2 text-sm text-white/70">Ou use o “Monte seu UP” para simular instantaneamente.</div>
+          </div>
+          <div class="card p-6 reveal">
+            <div class="step">2</div>
+            <div class="mt-3 text-base font-black">Realize o pagamento</div>
+            <div class="mt-2 text-sm text-white/70">Mercado Pago com checkout seguro (integração pronta).</div>
+          </div>
+          <div class="card p-6 reveal">
+            <div class="step">3</div>
+            <div class="mt-3 text-base font-black">Chame no Discord</div>
+            <div class="mt-2 text-sm text-white/70">Envio de dados no suporte para acompanhamento.</div>
+          </div>
+          <div class="card p-6 reveal">
+            <div class="step">4</div>
+            <div class="mt-3 text-base font-black">Receba a confirmação</div>
+            <div class="mt-2 text-sm text-white/70">Atualização do status e fechamento com transparência.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEGURANÇA -->
+      <section class="mx-auto max-w-6xl px-4 pt-12">
+        <div class="section-title">
+          <div class="inline-flex items-center gap-3">
+            <span class="chip">Segurança</span>
+            <h2 class="text-2xl font-black">Processo profissional e transparente</h2>
+          </div>
+          <p class="mt-2 text-white/70 max-w-2xl">
+            Sem promessas imprudentes: foco em comunicação, organização e experiência de compra segura.
+          </p>
+        </div>
+
+        <div class="mt-6 grid gap-5 lg:grid-cols-4">
+          <div class="card p-6 reveal">
+            <div class="icon-badge icon-neon2">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="M9 12l2 2 4-4"></path>
+              </svg>
+            </div>
+            <div class="mt-3 font-black">Pagamento protegido</div>
+            <div class="mt-2 text-sm text-white/70">Estrutura pronta para Mercado Pago e checkout seguro.</div>
+          </div>
+          <div class="card p-6 reveal">
+            <div class="icon-badge icon-neon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 1v22"></path>
+                <path d="M17 5H9.5a3 3 0 0 0 0 6H14a3 3 0 0 1 0 6H6"></path>
+              </svg>
+            </div>
+            <div class="mt-3 font-black">Atendimento ágil</div>
+            <div class="mt-2 text-sm text-white/70">Suporte via Discord com respostas rápidas e objetivas.</div>
+          </div>
+          <div class="card p-6 reveal">
+            <div class="icon-badge icon-neon2">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z"></path>
+              </svg>
+            </div>
+            <div class="mt-3 font-black">Entrega com clareza</div>
+            <div class="mt-2 text-sm text-white/70">Prazos estimados e comunicação do status do pedido.</div>
+          </div>
+          <div class="card p-6 reveal">
+            <div class="icon-badge icon-neon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 17l-5-5 1.4-1.4L12 14.2l3.6-3.6L17 12l-5 5z"></path>
+                <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"></path>
+              </svg>
+            </div>
+            <div class="mt-3 font-black">Garantia de processo</div>
+            <div class="mt-2 text-sm text-white/70">Se algo sair diferente do combinado, você tem suporte para resolver.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="mx-auto max-w-6xl px-4 pt-12">
+        <div class="section-title">
+          <div class="inline-flex items-center gap-3">
+            <span class="chip">Dúvidas</span>
+            <h2 class="text-2xl font-black">Perguntas frequentes</h2>
+          </div>
+          <p class="mt-2 text-white/70 max-w-2xl">Respostas diretas sobre segurança, entrega e como funciona.</p>
+        </div>
+
+        <div class="mt-6 space-y-3 max-w-3xl">
+          <div class="faq-item card overflow-hidden">
+            <button class="faq-header w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition" type="button">
+              <span class="text-base font-black flex items-center gap-3">
+                <span class="faq-icon text-pink-400">+</span>
+                É realmente seguro?
+              </span>
+            </button>
+            <div class="faq-content hidden">
+              <div class="px-6 pb-6 text-sm text-white/70 border-t border-white/10">
+                Sim! Nosso processo é 100% seguro. Usamos Mercado Pago para pagamentos (checkout verificado), Discord para ratrear cada pedido individualmente, e nunca pedimos dados sensíveis. Cada cliente tem um acompanhamento transparente do status.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item card overflow-hidden">
+            <button class="faq-header w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition" type="button">
+              <span class="text-base font-black flex items-center gap-3">
+                <span class="faq-icon text-pink-400">+</span>
+                Quanto tempo demora?
+              </span>
+            </button>
+            <div class="faq-content hidden">
+              <div class="px-6 pb-6 text-sm text-white/70 border-t border-white/10">
+                Depende do pacote: Iniciante até 24h | Intermediário 2-3 dias | Mais Vendido 4-5 dias | Avançado 8-10 dias | Premium 12-15 dias. Produção limitada a 40M por dia para garantir qualidade. Você acompanha tudo pelo Discord.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item card overflow-hidden">
+            <button class="faq-header w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition" type="button">
+              <span class="text-base font-black flex items-center gap-3">
+                <span class="faq-icon text-pink-400">+</span>
+                Como funciona a entrega?
+              </span>
+            </button>
+            <div class="faq-content hidden">
+              <div class="px-6 pb-6 text-sm text-white/70 border-t border-white/10">
+                Após pagamento aprovado no Mercado Pago, você entra no Discord e manda seus dados de conta. Nosso time processa seu pedido e entra na sua conta para adicionar o dinheiro. Você recebe confirmação quando tudo está pronto. Simples assim!
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item card overflow-hidden">
+            <button class="faq-header w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition" type="button">
+              <span class="text-base font-black flex items-center gap-3">
+                <span class="faq-icon text-pink-400">+</span>
+                Funciona em co-op ou conta compartilhada?
+              </span>
+            </button>
+            <div class="faq-content hidden">
+              <div class="px-6 pb-6 text-sm text-white/70 border-t border-white/10">
+                Recomendamos usar conta pessoal para máxima segurança. Contas compartilhadas podem ter riscos de perder o acesso. Converse conosco no Discord se tiver uma situação específica.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item card overflow-hidden">
+            <button class="faq-header w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition" type="button">
+              <span class="text-base font-black flex items-center gap-3">
+                <span class="faq-icon text-pink-400">+</span>
+                E se eu não gostar ou algo der errado?
+              </span>
+            </button>
+            <div class="faq-content hidden">
+              <div class="px-6 pb-6 text-sm text-white/70 border-t border-white/10">
+                Temos suporte VIP no Discord para resolver qualquer problema. Se a entrega não chegar como combinado, nosso time trabalha com você até resolver. Sua satisfação é nossa prioridade.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item card overflow-hidden">
+            <button class="faq-header w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition" type="button">
+              <span class="text-base font-black flex items-center gap-3">
+                <span class="faq-icon text-pink-400">+</span>
+                Qual pacote eu deveria escolher?
+              </span>
+            </button>
+            <div class="faq-content hidden">
+              <div class="px-6 pb-6 text-sm text-white/70 border-t border-white/10">
+                Iniciante se quer testar. Intermediário para gameplay confortável. Mais Vendido é o favorito da galera (melhor custo-benefício). Avançado para quem quer potência real. Premium para dominar de verdade. Use o "Monte seu UP" para simular antes!
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item card overflow-hidden">
+            <button class="faq-header w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition" type="button">
+              <span class="text-base font-black flex items-center gap-3">
+                <span class="faq-icon text-pink-400">+</span>
+                Só funciona em PC Enhanced?
+              </span>
+            </button>
+            <div class="faq-content hidden">
+              <div class="px-6 pb-6 text-sm text-white/70 border-t border-white/10">
+                Sim! Nossos serviços são exclusivamente para <b>PC Enhanced</b>. Essa versão oferece gráficos superiores e é o melhor ambiente para aproveitar seu upgrade. Outras plataformas em breve!
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <style>
+          .faq-content {
+            animation: slideDown 0.3s ease-out;
+          }
+          .faq-content.hidden {
+            display: none;
+          }
+          .faq-header .faq-icon {
+            font-weight: bold;
+            font-size: 1.25rem;
+            transition: transform 0.3s ease;
+          }
+          .faq-item.active .faq-header .faq-icon {
+            transform: rotate(45deg);
+          }
+          @keyframes slideDown {
+            from {
+              opacity: 0;
+              transform: translateY(-10px);
+            }
+            to {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+        </style>
+
+        <script>
+          document.querySelectorAll('.faq-header').forEach(header => {
+            header.addEventListener('click', () => {
+              const item = header.closest('.faq-item');
+              const content = item.querySelector('.faq-content');
+              const isActive = item.classList.contains('active');
+
+              // Fecha todos os outros
+              document.querySelectorAll('.faq-item').forEach(el => {
+                if (el !== item) {
+                  el.classList.remove('active');
+                  el.querySelector('.faq-content').classList.add('hidden');
+                }
+              });
+
+              // Toggle do item atual
+              if (isActive) {
+                item.classList.remove('active');
+                content.classList.add('hidden');
+              } else {
+                item.classList.add('active');
+                content.classList.remove('hidden');
+              }
+            });
+          });
+        </script>
+      </section>
+
+      <!-- SUPORTE -->
+      <section id="suporte" class="mx-auto max-w-6xl px-4 pt-12">
+        <div class="section-title">
+          <div class="inline-flex items-center gap-3">
+            <span class="chip">Suporte</span>
+            <h2 class="text-2xl font-black">Fale no Discord</h2>
+          </div>
+          <p class="mt-2 text-white/70 max-w-2xl">
+            Um canal para tirar dúvidas, acompanhar o status e finalizar com segurança.
+          </p>
+        </div>
+
+        <div class="mt-6 grid gap-5 lg:grid-cols-2">
+          <div class="card p-6 lg:p-7 neon-card reveal">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <div class="text-sm text-white/60">Discord</div>
+                <div class="mt-1 text-2xl font-black">Suporte rápido</div>
+                <div class="mt-2 text-sm text-white/70">
+                  Clique para entrar e enviar seu pedido diretamente no canal de ticket.
+                </div>
+              </div>
+              <div class="icon-badge icon-neon2">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 18h6"></path>
+                  <path d="M21 12a9 9 0 0 0-18 0"></path>
+                  <path d="M8 13h.01"></path>
+                  <path d="M16 13h.01"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="mt-5 flex flex-col sm:flex-row gap-3">
+              <a
+                href="https://discord.gg/TY6M7nfM7Z"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Entrar no Discord (ticket)"
+                class="btn btn-primary btn-lg w-full justify-center"
+              >
+                ENTRAR NO DISCORD
+              </a>
+              <a href="#monte" class="btn btn-secondary btn-lg w-full justify-center">
+                Fazer meu pedido
+              </a>
+            </div>
+
+            <div class="mt-4 text-xs text-white/55">
+              Dica: envie o comprovante e os dados solicitados para agilizar o atendimento.
+            </div>
+          </div>
+
+          <div class="card p-6 lg:p-7 reveal">
+            <div class="text-sm text-white/60">Atalhos</div>
+            <div class="mt-1 text-2xl font-black">Compra mais rápida</div>
+            <div class="mt-2 text-sm text-white/70">
+              Use estes botões para acelerar sua decisão.
+            </div>
+
+            <div class="mt-5 grid gap-3 sm:grid-cols-2">
+              <button class="btn btn-ghost" type="button" data-quick="inic">Iniciante</button>
+              <button class="btn btn-ghost" type="button" data-quick="inter">Intermediário</button>
+                <button class="btn btn-ghost" type="button" data-quick="mais">Mais vendido</button>
+              <button class="btn btn-ghost" type="button" data-quick="adv">Avançado</button>
+              <button class="btn btn-ghost" type="button" data-quick="prem">Premium</button>
+            </div>
+
+            <div class="mt-6 rounded-2xl border border-white/10 bg-white/5 p-4">
+              <div class="text-sm font-black">Perguntas rápidas</div>
+              <div class="mt-2 space-y-2 text-sm text-white/70">
+                <div class="flex items-start gap-2">
+                  <span class="check"></span>
+                  Qual pacote escolher?
+                </div>
+                <div class="flex items-start gap-2">
+                  <span class="check"></span>
+                  Como funciona o checkout?
+                </div>
+                <div class="flex items-start gap-2">
+                  <span class="check"></span>
+                  O que enviar no Discord?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- TOAST NOTIFICATIONS -->
+    <div id="toastContainer" class="fixed bottom-4 right-4 space-y-3 pointer-events-none z-50 max-w-sm"></div>
+
+    <script>
+      // TOAST NOTIFICATIONS
+      function showToast(message, duration = 3000, type = 'success') {
+        const container = document.getElementById('toastContainer');
+        const toast = document.createElement('div');
+        const bgColor = type === 'success' ? 'bg-green-500/90' : type === 'error' ? 'bg-red-500/90' : 'bg-blue-500/90';
+        
+        toast.className = `${bgColor} text-white px-6 py-3 rounded-lg font-bold text-sm pointer-events-auto shadow-lg animate-slideInUp`;
+        toast.textContent = message;
+        
+        container.appendChild(toast);
+        setTimeout(() => {
+          toast.classList.add('animate-slideOutDown');
+          setTimeout(() => toast.remove(), 300);
+        }, duration);
+      }
+
+      // CONFETTI EFFECT
+      function createConfetti() {
+        const colors = ['#ff007f', '#22c55e', '#7c3aed', '#00d9ff'];
+        const confettiPieces = 50;
+        
+        for (let i = 0; i < confettiPieces; i++) {
+          const confetti = document.createElement('div');
+          const randomColor = colors[Math.floor(Math.random() * colors.length)];
+          const randomDelay = Math.random() * 0.5;
+          const randomDuration = 2 + Math.random() * 1;
+          
+          confetti.style.cssText = `
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            background: ${randomColor};
+            left: ${Math.random() * 100}%;
+            top: -10px;
+            border-radius: 50%;
+            pointer-events: none;
+            animation: fall ${randomDuration}s linear ${randomDelay}s forwards;
+            z-index: 9999;
+            box-shadow: 0 0 10px ${randomColor};
+          `;
+          
+          document.body.appendChild(confetti);
+          setTimeout(() => confetti.remove(), (randomDuration + randomDelay) * 1000);
+        }
+      }
+
+      // SCROLL REVEAL ANIMATIONS
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+      // DYNAMIC PRICE PULSE
+      function pulseElement(el, duration = 500) {
+        el.style.animation = 'none';
+        setTimeout(() => {
+          el.style.animation = `pulse ${duration}ms ease-out`;
+        }, 10);
+      }
+
+      // STATS - valores dinâmicos (substitua por dados do backend / props Next.js)
+      const siteStats = {
+        deliveries: 500,
+        millions: 150,
+        rating: 4.98,
+      };
+
+      const statDeliveries = document.getElementById('statDeliveries');
+      const statMillions = document.getElementById('statMillions');
+      const statRating = document.getElementById('statRating');
+
+      if (statDeliveries) {
+        statDeliveries.dataset.value = siteStats.deliveries;
+        statDeliveries.textContent = '0';
+      }
+      if (statMillions) {
+        statMillions.dataset.value = siteStats.millions;
+        statMillions.textContent = '0';
+      }
+      if (statRating) {
+        statRating.textContent = siteStats.rating.toFixed(2);
+      }
+
+      // COUNTER ANIMATION
+      function animateCounter(element, target, duration = 1500) {
+        let current = 0;
+        const increment = target / (duration / 16);
+        const interval = setInterval(() => {
+          current += increment;
+          if (current >= target) {
+            element.textContent = target.toLocaleString('pt-BR');
+            clearInterval(interval);
+          } else {
+            element.textContent = Math.floor(current).toLocaleString('pt-BR');
+          }
+        }, 16);
+      }
+
+      // START COUNTERS WHEN VISIBLE
+      const statsObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !entry.target.dataset.animated) {
+            entry.target.dataset.animated = 'true';
+            const value = parseInt(entry.target.dataset.value) || 0;
+            animateCounter(entry.target, value);
+          }
+        });
+      }, { threshold: 0.5 });
+
+      document.querySelectorAll('[data-counter]').forEach(el => statsObserver.observe(el));
+
+      // ENHANCED CHECKOUT WITH CONFETTI
+      const originalCheckoutBtn = document.getElementById('checkoutBtn');
+      if (originalCheckoutBtn) {
+        const originalClick = originalCheckoutBtn.onclick;
+        originalCheckoutBtn.addEventListener('click', async (e) => {
+          e.preventDefault();
+          const total = document.getElementById('totalPrice').textContent;
+          createConfetti();
+          showToast('🎉 Pedido criado com sucesso! Redirecionando para pagamento...', 4000);
+        });
+      }
+
+      // PACKAGE CARD ANIMATIONS
+      document.querySelectorAll('.package-card').forEach(card => {
+        card.addEventListener('mouseenter', function() {
+          this.style.transform = 'translateY(-8px)';
+          this.style.transition = 'all 0.3s ease';
+          this.style.boxShadow = '0 20px 40px rgba(255, 0, 127, 0.3)';
+        });
+        card.addEventListener('mouseleave', function() {
+          this.style.transform = 'translateY(0)';
+          this.style.boxShadow = '';
+        });
+      });
+
+      // PRICE UPDATE PULSE
+      const totalPriceEl = document.getElementById('totalPrice');
+      if (totalPriceEl) {
+        const observer = new MutationObserver(() => {
+          pulseElement(totalPriceEl, 400);
+        });
+        observer.observe(totalPriceEl, { characterData: true, subtree: true });
+      }
+
+      // SMOOTH SCROLL LINKS
+      document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', function(e) {
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+
+      // ADD STYLES FOR ANIMATIONS
+      const style = document.createElement('style');
+      style.textContent = `
+        @keyframes fall {
+          to {
+            transform: translateY(100vh) rotate(360deg);
+            opacity: 0;
+          }
+        }
+        @keyframes pulse {
+          0% { transform: scale(1); }
+          50% { transform: scale(1.1); }
+          100% { transform: scale(1); }
+        }
+        @keyframes slideInUp {
+          from {
+            transform: translateY(100%);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+        @keyframes slideOutDown {
+          from {
+            transform: translateY(0);
+            opacity: 1;
+          }
+          to {
+            transform: translateY(100%);
+            opacity: 0;
+          }
+        }
+        .reveal {
+          opacity: 0;
+          animation: fadeInUp 0.6s ease-out forwards;
+        }
+        .revealed {
+          opacity: 1;
+        }
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .package-card {
+          transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+      `;
+      document.head.appendChild(style);
+
+      // BADGE PULSE ANIMATION
+      const badgeStyle = document.createElement('style');
+      badgeStyle.textContent = `
+        @keyframes badgePulse {
+          0%, 100% { box-shadow: 0 0 10px rgba(255, 0, 127, 0.5); }
+          50% { box-shadow: 0 0 20px rgba(255, 0, 127, 0.8); }
+        }
+        .most-sold-package::before {
+          content: '';
+          position: absolute;
+          top: 2px;
+          right: 2px;
+          width: 12px;
+          height: 12px;
+          background: #ff007f;
+          border-radius: 50%;
+          animation: badgePulse 2s ease-in-out infinite;
+        }
+        @keyframes microFall {
+          to {
+            transform: translateY(100vh) rotate(360deg);
+            opacity: 0;
+          }
+        }
+      `;
+      document.head.appendChild(badgeStyle);
+
+      // SCROLL TO CART ANIMATION
+      document.querySelectorAll('.package-cta').forEach(btn => {
+        btn.addEventListener('mouseover', function() {
+          this.style.transform = 'scale(1.05)';
+          this.style.transition = 'all 0.2s ease';
+        });
+        btn.addEventListener('mouseout', function() {
+          this.style.transform = 'scale(1)';
+        });
+      });
+
+      // FAQ ANIMATIONS
+      document.querySelectorAll('.faq-header').forEach(header => {
+        const originalClick = header.onclick;
+        header.addEventListener('click', function() {
+          showToast('✓ Pergunta aberta', 1500, 'info');
+        });
+      });
+
+      // LOADING BUTTON STATE
+      const checkoutBtn = document.getElementById('checkoutBtn');
+      if (checkoutBtn) {
+        checkoutBtn.addEventListener('click', async function() {
+          const originalText = this.textContent;
+          this.textContent = '⏳ Processando...';
+          this.disabled = true;
+          
+          setTimeout(() => {
+            this.textContent = originalText;
+            this.disabled = false;
+          }, 2000);
+        });
+      }
+
+      // QUICK BUY BUTTONS
+      document.querySelectorAll('[data-quick]').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const packageName = {
+            'inic': 'Iniciante',
+            'inter': 'Intermediário',
+            'mais': 'Mais Vendido',
+            'adv': 'Avançado',
+            'prem': 'Premium'
+          }[this.dataset.quick];
+
+          const packageValue = {
+            'inic': 40,
+            'inter': 100,
+            'mais': 200,
+            'adv': 400,
+            'prem': 600
+          }[this.dataset.quick] || 0;
+
+          const dinheiroSlider = document.getElementById('dinheiroSlider');
+          if (dinheiroSlider) {
+            dinheiroSlider.value = packageValue;
+            dinheiro = packageValue;
+          }
+
+          document.querySelectorAll('[data-quick]').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+
+          updateUI();
+
+          showToast(`📦 ${packageName} selecionado: ${packageValue}M em Monte seu UP`, 2500, 'success');
+
+          setTimeout(() => {
+            document.getElementById('monte')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 600);
+        });
+      });
+
+      // PARALLAX EFFECT ON SCROLL
+      window.addEventListener('scroll', () => {
+        const blob = document.getElementById('bgBlob');
+        if (blob) {
+          blob.style.transform = `translateY(${window.scrollY * 0.5}px)`;
+        }
+      });
+
+      // EXTRA TOGGLE ANIMATIONS
+      document.querySelectorAll('.extra-toggle').forEach(toggle => {
+        toggle.addEventListener('click', function() {
+          const isChecked = this.querySelector('.extra-checkbox').checked;
+          const price = this.dataset.price;
+          showToast(`${isChecked ? '✅ Adicionado' : '❌ Removido'}: +R$ ${price}`, 1500, 'success');
+        });
+      });
+
+      // MOBILE MENU TOGGLE
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+          mobileMenuBtn.classList.toggle('active');
+        });
+      }
+
+      // ENHANCE CHECKOUT BUTTON WITH BETTER STYLING
+      const checkoutBtn = document.getElementById('checkoutBtn');
+      if (checkoutBtn) {
+        // Add button enhancement CSS
+        const enhancedBtnStyle = document.createElement('style');
+        enhancedBtnStyle.textContent = `
+          #checkoutBtn {
+            background: linear-gradient(135deg, #ff007f 0%, #d4089a 100%);
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            position: relative;
+            overflow: hidden;
+          }
+          
+          #checkoutBtn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+          }
+          
+          #checkoutBtn:not(:disabled):hover::before {
+            left: 100%;
+          }
+          
+          #checkoutBtn:not(:disabled):hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(255, 0, 127, 0.5), 0 0 20px rgba(255, 0, 127, 0.3);
+          }
+          
+          #checkoutBtn:not(:disabled):active {
+            transform: translateY(0);
+          }
+          
+          #checkoutBtn:disabled {
+            background: linear-gradient(135deg, #696d7d 0%, #505560 100%);
+            cursor: not-allowed;
+          }
+
+          #checkoutBtnIcon {
+            font-size: 1.2em;
+            animation: iconBounce 2s ease-in-out infinite;
+          }
+
+          #checkoutBtn:not(:disabled):hover #checkoutBtnIcon {
+            animation: iconJump 0.6s ease-out;
+          }
+
+          @keyframes iconBounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-4px); }
+          }
+
+          @keyframes iconJump {
+            0% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-10px) scale(1.1); }
+            100% { transform: translateY(0) scale(1); }
+          }
+        `;
+        document.head.appendChild(enhancedBtnStyle);
+
+        // Handle button interactions
+        checkoutBtn.addEventListener('mouseenter', function() {
+          if (!this.disabled) {
+            createSmallConfetti(3);
+          }
+        });
+      }
+
+      function createSmallConfetti(count) {
+        const colors = ['#ff007f', '#d4089a'];
+        for (let i = 0; i < count; i++) {
+          const confetti = document.createElement('div');
+          const randomColor = colors[Math.floor(Math.random() * colors.length)];
+          confetti.style.cssText = `
+            position: fixed;
+            width: 6px;
+            height: 6px;
+            background: ${randomColor};
+            left: ${Math.random() * 100}%;
+            top: ${Math.random() * 30}%;
+            border-radius: 50%;
+            pointer-events: none;
+            animation: microFall 1s linear forwards;
+            z-index: 999;
+          `;
+          document.body.appendChild(confetti);
+          setTimeout(() => confetti.remove(), 1000);
+        }
+      }
+
+    </script>
+      <div class="mx-auto max-w-6xl px-4 py-10">
+        <div class="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+          <div>
+            <div class="text-sm font-black">THEMAF1A STORE</div>
+            <div class="mt-1 text-xs text-white/60">© <span id="year"></span> Todos os direitos reservados.</div>
+          </div>
+          <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-end">
+            <a class="text-sm text-white/70 hover:text-white" href="#suporte">Discord</a>
+            <a class="text-sm text-white/70 hover:text-white" href="/termos">Termos</a>
+            <a class="text-sm text-white/70 hover:text-white" href="/aviso-legal">Aviso legal</a>
+          </div>
+        </div>
+
+        <div class="mt-6 text-xs text-white/50">
+          Conteúdo pronto para personalização; ajuste preços, termos e integração conforme sua política.
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODAL CHECKOUT -->
+    <div
+      id="checkoutModal"
+      class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/70 p-4"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="checkoutModalTitle"
+    >
+      <div class="w-full max-w-lg rounded-2xl border border-white/10 bg-bg1/95 shadow-2xl">
+        <div class="flex items-start justify-between gap-3 border-b border-white/10 p-5">
+          <div>
+            <div id="checkoutModalTitle" class="text-lg font-black">Finalizar compra</div>
+            <div class="mt-1 text-sm text-white/70">Revise e siga para o pagamento.</div>
+          </div>
+          <button id="closeModalBtn" class="btn btn-ghost" type="button">Fechar</button>
+        </div>
+
+        <div class="p-5">
+          <div class="space-y-3 text-sm">
+            <div class="flex items-center justify-between gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+              <div class="text-white/70">Quantidade</div>
+              <div class="font-black text-neon2" id="modalQty">100 unidades</div>
+            </div>
+            <div class="flex items-center justify-between gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+              <div class="text-white/70">Extras</div>
+              <div class="text-right text-white/70" id="modalExtras">Sem extras</div>
+            </div>
+            <div class="flex items-center justify-between gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+              <div class="text-white/70">Prazo médio</div>
+              <div class="font-bold" id="modalEta">até 12h</div>
+            </div>
+            <div class="flex items-center justify-between gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+              <div class="text-white/70">Total</div>
+              <div class="font-black text-neon2" id="modalPrice">R$ 64,90</div>
+            </div>
+          </div>
+
+          <div class="mt-5 rounded-2xl border border-white/10 bg-white/5 p-4">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-sm font-black">Pagamento 100% seguro</div>
+                <div class="mt-1 text-xs text-white/60">
+                  A preference é criada via backend (Netlify Function) e redireciona para o checkout.
+                </div>
+              </div>
+              <span class="badge badge-neon2">Mercado Pago</span>
+            </div>
+          </div>
+
+          <div class="mt-5 flex flex-col gap-3 sm:flex-row">
+            <button id="confirmPayBtn" class="btn btn-primary btn-lg w-full justify-center" type="button">
+              Ir para o pagamento
+            </button>
+            <a href="#suporte" class="btn btn-secondary btn-lg w-full justify-center">
+              Falar no Discord
+            </a>
+          </div>
+
+          <div id="modalMsg" class="mt-3 text-xs text-white/60"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts Modulares ES6 (novo sistema) -->
+    <script type="module" src="./src/js/app.js"></script>
+    
+    <!-- scripts.js legado removido - uso o novo sistema modular em src/js/ -->
+  </body>
+</html>
+
+
